@@ -210,12 +210,11 @@ local Library do
 		    ["Background"] = FromRGB(14, 14, 14),
 		    ["Inline"] = FromRGB(11, 11, 11),
 		    ["Text"] = FromRGB(255, 255, 255),
-		    ["Element"] =  FromRGB(11, 11, 11),
-		    ["Image"] =  FromRGB(255, 255, 255),
+		    ["Element"] = FromRGB(11, 11, 11),
+		    ["Image"] = FromRGB(255, 255, 255),
 		
-		    -- purple theme
-		    ["Accent"] = FromRGB(140, 80, 255),
-		    ["Light Accent"] = FromRGB(190, 150, 255),
+		    ["Accent"] = FromRGB(0, 46, 139),
+		    ["Light Accent"] = FromRGB(40, 110, 255),
 		
 		    ["Border"] = FromRGB(24, 24, 24)
 		}
