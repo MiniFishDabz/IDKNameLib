@@ -213,8 +213,9 @@ local Library do
 		    ["Element"] = FromRGB(11, 11, 11),
 		    ["Image"] = FromRGB(255, 255, 255),
 		
-		    ["Accent"] = FromRGB(0, 46, 139),
-		    ["Light Accent"] = FromRGB(40, 110, 255),
+		    -- blue theme from your image
+		    ["Accent"] = FromRGB(4, 76, 218),
+		    ["Light Accent"] = FromRGB(90, 150, 255),
 		
 		    ["Border"] = FromRGB(24, 24, 24)
 		}
