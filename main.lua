@@ -206,16 +206,19 @@ local Library do
     end
 
     local Themes = {
-        ["Default"] = {
-            ["Background"] = FromRGB(14, 14, 14),
-            ["Inline"] = FromRGB(11, 11, 11),
-            ["Text"] = FromRGB(255, 255, 255),
-            ["Element"] =  FromRGB(11, 11, 11),
-            ["Image"] =  FromRGB(255, 255, 255),
-            ["Accent"] = FromRGB(181, 116, 16),
-            ["Light Accent"] = FromRGB(255, 156, 6),
-            ["Border"] = FromRGB(24, 24, 24)
-        }
+		["Default"] = {
+		    ["Background"] = FromRGB(14, 14, 14),
+		    ["Inline"] = FromRGB(11, 11, 11),
+		    ["Text"] = FromRGB(255, 255, 255),
+		    ["Element"] =  FromRGB(11, 11, 11),
+		    ["Image"] =  FromRGB(255, 255, 255),
+		
+		    -- purple theme
+		    ["Accent"] = FromRGB(140, 80, 255),
+		    ["Light Accent"] = FromRGB(190, 150, 255),
+		
+		    ["Border"] = FromRGB(24, 24, 24)
+		}
     }
 
     Library.Theme = TableClone(Themes["Default"])
